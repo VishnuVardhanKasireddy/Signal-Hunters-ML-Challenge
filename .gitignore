@@ -1,0 +1,49 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Raw competition datasets
+data/
+*.npy
+
+# Model checkpoints and generated outputs
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Experiment logs
+logs/
+runs/
+lightning_logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
